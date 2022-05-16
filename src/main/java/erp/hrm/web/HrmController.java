@@ -19,7 +19,7 @@ public class HrmController {
 	}
 	
 	@RequestMapping(value="/user-personal-record.do")
-	public String record(
+	public String personalRecord(
 			@RequestParam("uno")String uno,
 			@RequestParam("uname")String uname,
 			@RequestParam("dname")String dname,
@@ -62,6 +62,34 @@ public class HrmController {
 		model.addAttribute("bhold", bhold);
 		model.addAttribute("info", info);
 		return "HRM/user-personal-record";
+	}
+	
+	@RequestMapping(value="/user-department.do")
+	public String user(HttpServletRequest request, ModelMap model) {
+	      
+		return "HRM/user-department";
+		}
+
+	
+	
+	@RequestMapping(value="/user-sub-department.do")
+	public String subDepartment(HttpServletRequest request, ModelMap model) {
+      
+		return "HRM/user-sub-department";
+	}
+   
+	@RequestMapping(value="/user-sub-department-list.do")
+	public String subDepartmentList(HttpServletRequest request, ModelMap model) {
+      
+		return "HRM/user-sub-department-list";
+	}
+
+	
+	@RequestMapping(value="/user-position-registration.do")
+	public String positionRegistration(HttpServletRequest request, ModelMap model) {
+	      
+		return "HRM/user-position-registration";
+	      
 	}
 	
 }
