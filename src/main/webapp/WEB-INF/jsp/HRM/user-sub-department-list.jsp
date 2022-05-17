@@ -16,7 +16,7 @@
 <body>
 <h2>하위 부서 조회</h2>
 개발1팀&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;인원:00명
-</br></br>
+<br><br>
 <table width="300">
 	<tr>
 		<th>사원번호</th>
@@ -26,52 +26,52 @@
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 	
 	<tr>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
-		<td></br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
 	</tr>
 </table>
 </body>

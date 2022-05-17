@@ -27,12 +27,12 @@
 	   String pname = request.getParameter("pname");
 	   %>
 	</fieldset>
-	</br></br></br>
+	<br><br><br>
 	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 	
 	<button>수정</button>&emsp;&emsp;
    	<button>삭제</button>
-   	</br></br>
+   	<br><br>
    	
 	<table width="300">
 		<tr>
@@ -42,39 +42,39 @@
 		</tr>
 		
 		<tr>
-			<td><input type = "checkbox" value = "on"></br></td>
-			<td><%= pno %></br></td>
-			<td><%= pname %></br></td>
+			<td><input type = "checkbox" value = "on"><br></td>
+			<td><%= pno %><br></td>
+			<td><%= pname %><br></td>
 		</tr>
 		
 		<tr>
-			<td><input type = "checkbox" value = "on"> </br></td>
-			<td></br></td>
-			<td></br></td>
+			<td><input type = "checkbox" value = "on"> <br></td>
+			<td><br></td>
+			<td><br></td>
 		</tr>
 		
 		<tr>
-			<td><input type = "checkbox" value = "on"></br></td>
-			<td></br></td>
-			<td></br></td>
+			<td><input type = "checkbox" value = "on"> <br></td>
+			<td><br></td>
+			<td><br></td>
 		</tr>
 		
 		<tr>
-			<td><input type = "checkbox" value = "on"></br></td>
-			<td></br></td>
-			<td></br></td>
+			<td><input type = "checkbox" value = "on"> <br></td>
+			<td><br></td>
+			<td><br></td>
 		</tr>
 		
 		<tr>
-			<td><input type = "checkbox" value = "on"></br></td>
-			<td></br></td>
-			<td></br></td>
+			<td><input type = "checkbox" value = "on"> <br></td>
+			<td><br></td>
+			<td><br></td>
 		</tr>
 		
 		<tr>
-			<td><input type = "checkbox" value = "on"></br></td>
-			<td></br></td>
-			<td></br></td>
+			<td><input type = "checkbox" value = "on"> <br></td>
+			<td><br></td>
+			<td><br></td>
 		</tr>
 		
 		<tr>

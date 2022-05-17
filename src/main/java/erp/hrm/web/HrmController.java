@@ -12,6 +12,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HrmController {
 	
+	@RequestMapping(value="/user-inquiry.do")
+	public String userInquiry(HttpServletRequest request, ModelMap model) {
+		
+		return "HRM/user-inquiry";
+	}
+	
 	@RequestMapping(value="/user-registration.do")
 	public String registration(HttpServletRequest request, ModelMap model) {
 		
@@ -65,7 +71,7 @@ public class HrmController {
 	}
 	
 	@RequestMapping(value="/user-department.do")
-	public String user(HttpServletRequest request, ModelMap model) {
+	public String department(HttpServletRequest request, ModelMap model) {
 	      
 		return "HRM/user-department";
 		}
@@ -89,6 +95,27 @@ public class HrmController {
 	public String positionRegistration(HttpServletRequest request, ModelMap model) {
 	      
 		return "HRM/user-position-registration";
+	      
+	}
+	
+	@RequestMapping(value="/payroll-deduction.do")
+	public String Deduction(HttpServletRequest request, ModelMap model) {
+	      
+		return "HRM/payroll-deduction";
+	      
+	}
+	
+	@RequestMapping(value="/payroll-overtime-inquiry.do")
+	public String OvertimeInquiry(HttpServletRequest request, ModelMap model) {
+	      
+		return "HRM/payroll-overtime-inquiry";
+	      
+	}
+	
+	@RequestMapping(value="/payroll-overtime-registration.do")
+	public String OvertimeRegistration(HttpServletRequest request, ModelMap model) {
+	      
+		return "HRM/payroll-overtime-registration";
 	      
 	}
 	
